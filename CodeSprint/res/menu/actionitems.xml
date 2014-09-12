@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/add_sprint"
+          android:icon="@drawable/ic_action_new"
+          android:title="add sprint"
+          android:showAsAction="always" />
+    <item android:id="@+id/delete_sprint"
+          android:icon="@drawable/ic_action_discard"
+          android:title="delete sprint"
+          android:showAsAction="always" />
+    <!-- Settings, should always be in the overflow -->
+    <item android:id="@+id/about_app"
+          android:title="About"
+          android:showAsAction="never" />
+</menu>

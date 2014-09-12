@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#FFFF66" >
+        
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="232dp"
+    android:layout_marginTop="6dp"
+    android:background="@drawable/rounded_corners_white"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/sprintDetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <View
+        android:id="@+id/lineMargin"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="4dp"
+        android:background="#FF9900"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/sprintDetEstHours"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#ff707070"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sprintDetCompletedHours"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#ff707070"
+        android:textSize="18sp" />
+
+    
+        <TextView
+        android:id="@+id/sprintDetEstWeeks"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#ff707070"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sprintDetCompletedWeeks"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#ff707070"
+        android:textSize="18sp" />
+    
+        <TextView
+        android:id="@+id/sprintDetProgress"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#ff707070"
+        android:text="Progress (in hours) :"
+        android:textSize="18sp" />
+    
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_weight="0.88"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp" />
+    
+
+    
+    <Button
+        android:id="@+id/sprintEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:background="#FF9900"
+        android:text="Edit Sprint" />
+
+</LinearLayout>
+
+
+</ScrollView>

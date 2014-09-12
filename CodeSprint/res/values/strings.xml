@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CodeSprint</string>
+    <string name="title_sprint_detail">Sprint Detail</string>
+    <string name="SprintTitle">Sprint Title :</string>
+    <string name="SprintEstHours">Sprint Estimated Hours :</string>
+    <string name="SprintCompHours">Sprint Completed Hours :</string>
+    <string name="SprintCompWeeks">Sprint Completed Weeks :</string>
+    <string name="ProgressLabel">Progress (in Hours) :</string>
+    <string name="SprintEstWeeks">Sprint Estimated Weeks :</string>
+
+</resources>
